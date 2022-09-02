@@ -5,7 +5,7 @@ export class MysiteFooter extends LitElement {
         return css`
         footer {
             display: block;
-            background: black;
+            background: blue;
             color: white;
             padding: 1rem;
         }
