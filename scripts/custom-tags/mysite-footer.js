@@ -14,7 +14,7 @@ export class MysiteFooter extends LitElement {
 
     render() {
         return html`
-        <footer><p>© ${new Date().getFullYear()} Kiran S</p></footer>
+        <footer><p>© ${new Date().getFullYear()} | Kiran S. All rights reserved.</p></footer>
         `;
     }
 }

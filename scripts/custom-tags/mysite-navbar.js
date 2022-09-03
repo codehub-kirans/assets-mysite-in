@@ -1,4 +1,4 @@
-import { LitElement, html } from 'https://jspm.dev/lit-element@2';
+import { LitElement, html, css } from 'https://jspm.dev/lit';
 export class MysiteNavbar extends LitElement {
     static get styles() {
         return css`
