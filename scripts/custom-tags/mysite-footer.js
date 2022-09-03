@@ -3,10 +3,10 @@ import { LitElement, html, css } from 'https://jspm.dev/lit';
 export class MysiteFooter extends LitElement {
     static get styles() {
         return css`
-        footer {
+        :host {
             display: block;
-            background: blue;
-            color: white;
+            background: #f5f5f7;
+            color: #515151;
             padding: 1rem;
         }
         `;
@@ -14,7 +14,7 @@ export class MysiteFooter extends LitElement {
 
     render() {
         return html`
-        <footer><p>© ${new Date().getFullYear()} Mysite</p></footer>
+        <footer><p>© ${new Date().getFullYear()} Kiran S</p></footer>
         `;
     }
 }
